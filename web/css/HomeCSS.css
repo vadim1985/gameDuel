@@ -1,0 +1,53 @@
+body
+{
+    background-color: silver;
+    color: black;
+    position: center;
+}
+
+.imgDuel
+{
+    width: 50%;
+    height: 200px;
+    /*display: block;*/
+    margin: 40px auto;
+    background-position: center;
+    background-size: cover;
+}
+.btnExit
+{
+    position: relative;
+    left: 60%;
+    top: 10%;
+    height: 100px;
+    width: 100px;
+}
+.btnDuel
+{
+    position: relative;
+    left: 10%;
+    top: 10%;
+    height: 100px;
+    width: 100px;
+}
+.loginPage
+{
+    width: 50%;
+    height: 200px;
+    background: lightgray;
+    margin: 40px auto;
+    text-align: center;
+
+    -webkit-box-shadow: 0 10px 3px -5px #777;
+    -moz-box-shadow: 0 10px 3px -5px #777;;
+    box-shadow: 0 10px 3px -5px #777;;
+}
+
+.footer
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}

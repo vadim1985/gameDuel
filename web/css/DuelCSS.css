@@ -1,0 +1,54 @@
+body
+{
+    background-color: silver;
+    color: black;
+}
+table
+{
+    margin: auto;
+}
+progress
+{
+    margin: auto;
+    width: 300px;
+}
+.btnAttack
+{
+    height: 50px;
+    width: 300px;
+}
+.tablePlayer
+{
+    height: 60%;
+    width: calc(100%/3);
+    float: left;
+    text-align: center;
+}
+.tableOpponent
+{
+    height: 60%;
+    width: calc(100%/3);
+    float: right;
+    text-align: center;
+}
+.actionList
+{
+    height: 60%;
+    width: calc(100%/3);
+    float: left;
+    overflow: auto;
+    text-align: center;
+    background: lightgray;
+    -webkit-box-shadow: 0 10px 3px -5px #777;
+    -moz-box-shadow: 0 10px 3px -5px #777;;
+    box-shadow: 0 10px 3px -5px #777;;
+}
+
+.footer
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}
